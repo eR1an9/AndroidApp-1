@@ -1,50 +1,143 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
- <head>
-  <meta charset="utf-8" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="msapplication-tap-highlight" content="no" />
-  <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css" />
-  <title>Home Aplikasi</title>
-  <style>
-   body{
+<!-- Mirrored from getbootstrap.com/components/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 02 Oct 2013 12:11:59 GMT -->
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
 
-    background: url(img/bg.png);
-    background-size: 360px 640px;
-    background-color: #cccccc;
-   }
+<title>
+    Components &middot; Bootstrap
+</title>
 
-  </style>
- </head>
- <body>
- <h1><input type="button" class="btn btn-primary btn-lg btn-block" value="APLIKASI PEMBELAJARAN ANDROID">
- </h1>
- <br>
- <br><br><br>
+<!-- Bootstrap core CSS -->
+<link href="dist/css/bootstrap.css" rel="stylesheet">
 
- <center>
-   <a href="#"><img class="img4" src="img/tanobat.png" width="200px" height="2px"></a>
-   <br><br>
-   <a href="t_hias/index.html"><img class="img4" src="img/tanhias.png" width="200px" height="50px"></a>
-   <br><br>
-   <a href="#"><img class="img4" src="img/buahtum.png" width="200px" height="2px"></a>
-   <br><br>
-   <a href="t_game/index.html" title="Game"><img class="img4" src="img/game.png" width="200px" height="2px"></a>
-   <br><br>
-   <a href="../" onclick='return confirm("apakah yakin ingin keluar Aplikasi?")'><img class="img4" src="img/exit.png" width="200px" height="2px"></a>
-   <br>
- </center>
- <!-- <a href="tanaman/tanaman.html"  class="btn btn-default btn-lg btn-block"><input type="image" src="img/tanam.png" width="200px" height="30"><h1>Tanaman Hias</h1></a><br>         -->
-<!--  <a href="tentang.html"  class="btn btn-default btn-lg btn-block"><input  type="image" src="img/tentang.png" width="200px" height="30" alt="tentang"><h1>Tentang Aplikasi</h1></a> -->
+<!-- Documentation extras -->
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/css/pygments-manni.css" rel="stylesheet">
 
- <script type="text/javascript" src="cordova.js"></script>
- <script type="text/javascript" src="js/index.js"></script>
- <script type="text/javascript">
-  app.initialize();
- </script>
- </body>
+<!-- Favicons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                               <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-146052-10']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+    <!-- Place anything custom after this. -->
+  </head>
+  <body background="img/bgg.png">
+    <a class="sr-only" href="#content">Skip navigation</a>
+
+    <!-- Docs master nav -->
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="" class="navbar-brand">HORTIKULTURAL</a>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<br><br>
+<!-- Button trigger modal -->
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+      <a data-toggle="modal" href="t_hias/index.html" class="btn btn-default btn-lg btn-block">
+        <img src="img/tanaman/anggrek.jpg" alt="" width="250px" height="80px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TANAMAN HIAS
+      </a>
+    </div>
+  </div> <!-- /.Button trigger model -->
+  <br>
+  <!-- Button trigger modal -->
+  <div class="row">
+    <div class="col-md-8">
+      <a data-toggle="modal" href="t_obat/index.html" class="btn btn-default btn-lg btn-block">
+        <img src="img/tanaman/anggrek.jpg" alt="" width="250px" height="80px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TANAMAN OBAT
+      </a>
+    </div>
+  </div> <!-- /.Button trigger model -->
+  <br>
+  <!-- Button trigger modal -->
+  <div class="row">
+    <div class="col-md-8">
+      <a data-toggle="modal" href="t_buah/index.html" class="btn btn-default btn-lg btn-block">
+        <img src="img/buah.jpg" alt="" width="100px" height="80px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BUAH
+      </a>
+    </div>
+  </div> <!-- /.Button trigger model -->
+  <br>
+  <!-- Button trigger modal -->
+    <div class="row">
+      <div class="col-md-8">
+        <a data-toggle="modal" href="t_game/index.html" class="btn btn-default btn-lg btn-block">
+          <img src="img/game.png" alt="" width="150px" height="80px" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GAME
+        </a>
+    </div>
+  </div> <!-- /.Button trigger model -->
+  <br>
+
+  </div>
+
+
+
+
+  <footer class="bs-footer" role="contentinfo">
+    <div class="container">
+      Copyright &copy; Elang Surya
+    </div>
+  </footer>
+
+<!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"></script>
+<script src="dist/js/bootstrap.js"></script>
+
+<script src="../../platform.twitter.com/widgets.js"></script>
+<script src="assets/js/holder.js"></script>
+
+<script src="assets/js/application.js"></script>
+
+
+
+<!-- Analytics
+================================================== -->
+<script>
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+    t.src = '../../secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+
+  </body>
+
+<!-- Mirrored from getbootstrap.com/components/ by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 02 Oct 2013 12:11:59 GMT -->
 </html>
