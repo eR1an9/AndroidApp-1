@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<meta charset="UTF-8">
+	<title>Restaurant Picker</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="../css/jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+	<link rel="stylesheet" href="../css/jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="../css/custom.css" />
+	<script src="../js/jquery-1.7.1.min.js"></script>
+	<script src="../js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+<body> 
+<div id="restau" data-role="page" data-add-back-btn="true">
+	
+	<div data-role="footer">
+        <div data-role="navbar" data-iconpos="bottom">
+            <ul>
+                <li><a href="../index.html" data-icon="home">Home</a></li>
+                <li><a href="index.html" data-icon="arrow-l">Hias</a></li>
+                <li><a href="#" data-icon="start">Obat</a></li>
+                <li><a href="#" data-icon="arrow-r">Buah</a></li>
+                <!-- <li><a href="#" data-icon="star" class="ui-btn-active">Favs</a></li>
+                <li><a href="#" data-icon="gear">Setup</a></li> -->
+            </ul>
+        </div><!-- /navbar -->
+    </div><!-- /footer -->
+	
+	<div data-role="content">
+	<div class="ui-grid-a" id="restau_infos">	
+		<div class="ui-block-a">
+		<h1> Bunga Matahari</h1>
+		<!-- <p><strong>  Restaurant bar in the center of Strasbourg</strong></p>
+		<p> On the menu: </p> -->
+			<ul> 
+				<!-- <li> Milkshake with chocolat</li>
+				<li> Planchettes </li>
+				<li> Leek pie </li> -->
+			</ul>			
+		<p>Bunga matahari memiliki nama latin Helianthus annuus Linn. dan masuk dalam famili Compositae. Sama seperti lidah buaya, bunga matahari merupakan tanaman hias yang sering dijadikan sebagai obat tradisional. Beberapa penyakit yang bisa diobti dengan bunga matahari antara lain Hipertensi, Sakit kepala, Sakit gigi, nyeri menstruasi, reumatik, Nyeri lambung, radang payudara, Sulit melahirkan, Disentri, Campak, Infeksi saluran kencing, Bronkhitis, Batuk, Keputihan dan Malaria.<br><br>
+
+Kandungan kimia yang terdapat pada bunganya antara lain: Quercimeritrin, helianthoside (A,B,C), oleanolic acid, echinocystic acid. Sedangkan dalam bijinya terkandung Beta-sitosterol, prostaglandin E, chlorogenic acid, quinic acid, phytin, 3,4-benzopyrene.</p>
+		</div>		
+		<div class="ui-block-b">
+		<p><img src="../img/matahari.jpg" alt="jeannette photo"/></p>
+		<p>Bagian tanaman yang sering digunakan untuk pengobatan adalah akar, daun, bunga dan biji. Akar bunga matahari berkhasiat untuk mengobati infeksi saluran kencing, radang saluran nafas (bronchitis), batuk rejan (pertussis), keputihan (leucorrhoe). Bagian bunganya sendiri bermanfaat untuk pengobatan tekanan darah tinggi, mengurangi rasa nyeri pada sakit kepala, pusing, sakit gigi, nyeri menstruasi (dysmenorrhoe), nyeri lambung (gastric pain), radang payudara (mastitis), rheumatik (arthritis), sulit melahirkan.<br><br>
+
+Bijinya bisa digunakan untuk menambah nafsu makan, lesu, disenteri berdarah, campak, dan sakit kepala. Sementara daunnya dipakai untuk mengobati penyakit malaria.</p>
+		</div>
+	</div><!-- /grid-a -->
+	<hr/>
+	
+	<div class="ui-grid-a" id="contact_infos">	
+		<div class="ui-block">
+		<h2> Berikut ini contoh pemanfaatan bunga matahari sebagai obat tradisional:</h2>
+		<h3>1. Mengobati Sakit Kepala</h3>
+		<p>Ambil 30 gram bunga matahari, kemudian direbus dengan satu butir telur ayam (jangan dipecahkan). Rebus dalam 3 gelas air hingga tersisa 1/2 gelas. Kemudian air rebusan tersebut diminum sesudah makan sebanyak dua kali sehari.</p>		
+		<h3>2. Mengobati Rematik</h3>
+		<p>Untuk mengobati rematik, rebuslah 1 tangkai kepala bunga matahari sampai menjadi kanji. Kemudian tempelkan kanji tersebut ke bagian yang sakit seperti menggunakan salep.</p>
+		<h3>3. Mengobati Disentri</h3>
+		<p>Seduh 30 gram biji bunga matahari, kemudian ditim selama kurang lebih 1 jam. Setelah dingin, tambahkan gula batu secukupnya, kemudian diminum.</p>
+	<h3>4. Melancarkan buang air besar dan kecil</h3>
+		<p>Jika Anda mengalami susah buang air besar ataupun susah buang air kecil, rebuslah 15-30 gram akar bunga matahari segar, kemudian minum airnya. Insya Alloh semuanya akan lancar kembali.</p>
+
+	<h3>5. Infeksi saluran kencing</h3>
+	<p>Rebus 30 gram akar bunga matahari segar. Sewaktu akan mendidih, segera diangkat dan minum selagi masih hangat.</p>
+	
+		</div>		
+	</div><!-- /grid-a -->
+	
+	<hr/>
+	sumber : http://manfaatbuahdaun.blogspot.co.id
+	
+	<!-- <div id="notation">	
+	<form>
+	<label for="select-choice-0" class="select"><h2> User rating </h2></label>
+		<select name="note_utilisateur" id="note_utilisateur" data-native-menu="false" data-theme="c" >
+		   <option value="one" class="one"> Not good at all </option>
+		   <option value="two" class="two">Average </option>
+		   <option value="three" class="three">Pretty good </option>
+		   <option value="four" class="four"> Excellent </option>
+		</select>	
+	</form>
+	</div> -->
+
+
+	<script type="text/javascript">
+
+	$( '#restau' ).live( 'pageinit',function(event){
+		var SelectedOptionClass = $('option:selected').attr('class');
+		$('div.ui-select').addClass(SelectedOptionClass);
+		
+		$('#note_utilisateur').live('change', function(){	 
+			$('div.ui-select').removeClass(SelectedOptionClass);
+			
+			SelectedOptionClass = $('option:selected').attr('class');
+			$('div.ui-select').addClass(SelectedOptionClass);		
+			
+		 });
+		
+	  
+	});
+
+	</script>
+	
+
+	</div>
+
+
+</div><!-- /page -->
+</body>
+</html>
