@@ -12,3 +12,6 @@ Aplikasi Pembelajaran dan Pengenalan Tanaman Hias, Pangan, Dan Obat disertai den
 List Tanaman Obat<br/>
 <img src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xat1/v/t1.0-9/10624641_965581606861880_7741738159352526512_n.jpg?oh=0dd8303be298ed9c7c8122bc82ec843e&oe=571A83EF" width="150px"><br/>
 Ini terbaru
+# hari ke 5 di 2016
+tambahan menu baru di tampilan depan
+<img src="https://scontent-sin1-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/926_966217800131594_1622636929907622109_n.jpg?oh=2321df0b9aec761011374e9ae2666c6b&oe=5712F652" width="150px">
