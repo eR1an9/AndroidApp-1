@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
-<html> 
-<head> 
+<!DOCTYPE html>
+<html>
+<head>
 	<meta charset="UTF-8">
-	<title>Restaurant Picker</title> 
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<link rel="stylesheet" href="../css/jquery.mobile.structure-1.0.1.css" /><!-- 
+	<title>Restaurant Picker</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/jquery.mobile.structure-1.0.1.css" /><!--
 	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
 	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" /> -->
@@ -12,32 +12,32 @@
 	<link rel="stylesheet" href="../css/custom.css" />
 	<script src="../js/jquery-1.7.1.min.js"></script>
 	<script src="../js/jquery.mobile-1.0.1.min.js"></script>
-</head> 
-<body> 
+</head>
+<body>
 <div id="restau" data-role="page" data-add-back-btn="true">
-	
-	<div data-role="header"> 
+
+	<div data-role="header">
 		<h1> Restaurant Picker</h1>
-	</div> 
-	
+	</div>
+
 	<div data-role="content">
-	<div class="ui-grid-a" id="restau_infos">	
+	<div class="ui-grid-a" id="restau_infos">
 		<div class="ui-block">
 		<h1> Khasiat Buah Mengkudu</h1>
-		</div>		
+		</div>
 		<div class="ui-block-b">
-			<img src="../img/t_obat/mengkudu.jpg" style="height:100%">
+			<img src="../img/t_obat/mengkudu.jpg" style="height:150px">
 		</div>
 			<p> Meski memiliki bau dan rasa yang tidak sedap, buah mengkudu banyak dicari oleh masyarakat. Konon sebagai obat tradisional, mengkudu memiliki banyak khasiat yang bisa menyembuhkan berbagai macam kondisi.</p>
-			<p>Tapi secara medis manfaat buah yang memiliki nama latin morinda citrifolia ini masih diragukan. Dibutuhkan penelitian lebih lanjut untuk menyatakan keabsahannya.</p>			
+			<p>Tapi secara medis manfaat buah yang memiliki nama latin morinda citrifolia ini masih diragukan. Dibutuhkan penelitian lebih lanjut untuk menyatakan keabsahannya.</p>
 			<p>Mengkudu adalah sejenis pohon cemara tropis yang biasa dijumpai di Kepulauan Pasifik, India, Australia, dan Asia Tenggara. Buah ini mengandung sejumlah fitokimia, yaitu zat pada buah-buahan yang bisa mencegah penyakit. Jenis fitokimia yang ada antara lain asam lemak, lignan, alkaloida, beta-sitosterol, flavonoid, dan iridoid. Menurut penelitian, belum ada cukup bukti yang kuat untuk menyimpulkan efek positifnya pada kesehatan.</p>
 			<p>Sementara itu, mengkudu juga mengandung sejumlah nutrisi-nutrisi lain, seperti vitamin C, vitamin A, vitamin B3, potasium, kalsium, katekin, damnacanthal, sodium, zat besi, serat, dan karbohidrat.</p>
 			<p>Ada sebagian masyarakat yang percaya buah ini dapat mengobati berbagai penyakit, antara lain pilek, sakit kepala, diabetes, kolesterol, tekanan darah tinggi, rematik, alergi, infeksi, peradangan, penyakit jantung, psoriasis, HIV, kanker dan lain-lain.</p>
 			<p>Di Indonesia sendiri, mengkudu diproduksi dalam bentuk kapsul, bubuk, teh, jenis minuman, dan kosmetik. Produk-produk tersebut pun sudah teregistrasi di BPOM RI.</p>
-	
+
 	</div><!-- /ui-block-->
 	<hr/>
-	
+
 	<div class="ui-grid-a" id="restau_infos">
 		<div class="ui-block">
 			<h2>Inilah Khasiat Mengkudu Dipandang dari Sisi Medis</h2>
@@ -52,11 +52,11 @@
 				<li><b>Osteoartritis.</b> Minum tiga ons jus mengkudu Tahitian tiap hari selama 5 bulan dapat mengurangi kebutuhan untuk mengonsumsi obat pereda rasa sakit pada penderita osteoartritis.</li>
 			</ul>
 			<p>Selain untuk kondisi-kondisi di atas, penelitian lebih lanjut juga masih diperlukan untuk kondisi seperti batuk, sakit perut, diabetes, konstipasi, maag, masalah pada organ hati, migrain, infeksi, gangguan pencernaan, gangguan ginjal, katarak mata, asma, depresi, mengurangi tanda-tanda penuaan, dan kondisi lainnya.</p>
-		</div>	
-	</div>	
+		</div>
+	</div>
 	<hr/>
-	
-	<div id="notation">	
+
+	<div id="notation">
 	<form>
 	<label for="select-choice-0" class="select"><h2> Perhatikan Hal Berikut Ini Sebelum Mengonsumsi Mengkudu </h2></label>
 		<p>Layaknya buah-buahan pada umumnya, mengkudu yang masih berbentuk buah kemungkinan aman untuk dikonsumsi, namun keamanan mengkudu mungkin akan diragukan ketika Anda mengonsumsinya dalam bentuk obat-obatan. Langkah terbaik adalah mengonsultasikan dengan dokter sebelum mengonsumsi mengkudu baik dalam bentuk buah maupun obat secara teratur.</p>
@@ -78,20 +78,20 @@
 	$( '#restau' ).live( 'pageinit',function(event){
 		var SelectedOptionClass = $('option:selected').attr('class');
 		$('div.ui-select').addClass(SelectedOptionClass);
-		
-		$('#note_utilisateur').live('change', function(){	 
+
+		$('#note_utilisateur').live('change', function(){
 			$('div.ui-select').removeClass(SelectedOptionClass);
-			
+
 			SelectedOptionClass = $('option:selected').attr('class');
-			$('div.ui-select').addClass(SelectedOptionClass);		
-			
+			$('div.ui-select').addClass(SelectedOptionClass);
+
 		 });
-		
-	  
+
+
 	});
 
 	</script>
-	
+
 
 	</div>
 
